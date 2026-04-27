@@ -1,0 +1,123 @@
+/* ── Attract / Idle Screen ────────────────────────────────────────
+ * Fades in after 90 s of inactivity. Any touch dismisses it.
+ * Resets the book to page 1 before becoming visible.
+ * ────────────────────────────────────────────────────────────────*/
+
+.attract {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-attract);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  touch-action: manipulation;
+  /* Hidden by default; JS adds .is-active */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--dur-attract) var(--ease-in-out);
+}
+
+.attract.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Book cover image fills the attract screen */
+.attract__bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('/assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  /* Dark vignette overlay: deep centre fades to near-opaque edges
+     so the cover reads as texture, not as content */
+  mask-image: radial-gradient(ellipse 70% 55% at 50% 50%, black 0%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 70% 55% at 50% 50%, black 0%, transparent 100%);
+  animation: attractPulse 6s var(--ease-in-out) infinite;
+}
+
+/* A second layer for the dark vignette / scrim */
+.attract__bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      ellipse 60% 50% at 50% 50%,
+      rgba(22, 18, 14, 0.35) 0%,
+      rgba(22, 18, 14, 0.82) 60%,
+      rgba(22, 18, 14, 0.97) 100%
+    );
+}
+
+@keyframes attractPulse {
+  0%,  100% { opacity: 0.65; transform: scale(1);    }
+  50%        { opacity: 1;    transform: scale(1.03); }
+}
+
+/* Text content */
+.attract__inner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-6);
+  padding: var(--sp-16);
+}
+
+/* Hairline rule above eyebrow */
+.attract__inner::before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 60px;
+  background: linear-gradient(to bottom, transparent, var(--clr-gold-dim));
+  margin-bottom: var(--sp-4);
+}
+
+.attract__eyebrow {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--clr-gold);
+  animation: attractBlink 2.8s var(--ease-in-out) infinite;
+}
+
+@keyframes attractBlink {
+  0%,  100% { opacity: 1;   }
+  50%        { opacity: 0.3; }
+}
+
+.attract__title {
+  font-family: var(--font-display);
+  font-size: var(--text-4xl);
+  font-weight: var(--font-weight-regular);
+  color: var(--clr-text-primary);
+  letter-spacing: 0.03em;
+  line-height: 1.05;
+}
+
+.attract__subtitle {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--clr-gold);
+  animation: attractBlink 2.8s var(--ease-in-out) infinite;
+  /* Offset the phase so it breathes opposite to the eyebrow */
+  animation-delay: 1.4s;
+}
+
+/* Hairline rule below subtitle */
+.attract__inner::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 60px;
+  background: linear-gradient(to top, transparent, var(--clr-gold-dim));
+  margin-top: var(--sp-4);
+}

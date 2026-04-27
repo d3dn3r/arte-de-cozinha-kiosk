@@ -1,0 +1,42 @@
+# Arte de Cozinha — Kiosk Web Server (Caddy 2)
+#
+# The root path uses the KIOSK_DIR environment variable so that
+# this file works unchanged whether Caddy is launched manually
+# (START.bat sets KIOSK_DIR) or as a Windows service
+# (INSTALL-SERVICE.bat registers KIOSK_DIR as a machine variable).
+#
+# Manual test  →  double-click START.bat
+# Install once →  run INSTALL-SERVICE.bat as Administrator
+
+localhost:8080 {
+
+  root * {env.KIOSK_DIR}dist
+
+  file_server
+
+  # Service Worker must never be stale
+  @sw path /sw.js
+  header @sw Cache-Control "no-cache, no-store, must-revalidate"
+
+  # Vite-hashed bundles: browser caches forever
+  @chunks path /_app/*
+  header @chunks Cache-Control "public, max-age=31536000, immutable"
+
+  # Page images: one-day cache (SW keeps a warm copy anyway)
+  @pages path /assets/pages/*
+  header @pages Cache-Control "public, max-age=86400"
+
+  # Icons and audio: one-week cache
+  @static path /assets/icons/* /assets/audio/*
+  header @static Cache-Control "public, max-age=604800"
+
+  # Manifest files: always revalidate
+  @manifest path /pages.json /manifest.webmanifest
+  header @manifest Cache-Control "no-cache"
+
+  # SPA fallback
+  try_files {path} /index.html
+
+  # Compress text assets in transit
+  encode zstd gzip
+}

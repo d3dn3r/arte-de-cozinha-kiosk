@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#16120e" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <title>Museum Collection</title>
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png" />
+</head>
+<body>
+  <div id="app">
+
+    <!-- ── Attract / idle screen ──────────────────────────────── -->
+    <div id="attract-screen" class="attract" aria-hidden="true" role="dialog" aria-label="Touch to begin">
+      <div class="attract__bg" aria-hidden="true"></div>
+      <div class="attract__inner">
+        <p class="attract__eyebrow">Toque para Explorar</p>
+        <h1 class="attract__title">Museum Collection</h1>
+        <p class="attract__subtitle">Touch to Explore</p>
+      </div>
+    </div>
+
+    <!-- ── Header bar ─────────────────────────────────────────── -->
+    <header class="header" role="banner">
+      <!-- Spacer mirrors the fullscreen button to keep indicator centred -->
+      <span class="header__spacer" aria-hidden="true"></span>
+
+      <div class="page-indicator" id="page-indicator" role="status" aria-live="polite" aria-atomic="true">
+        <span id="page-current">1</span>
+        <span class="page-indicator__sep">/</span>
+        <span id="page-total">1</span>
+      </div>
+
+      <button class="btn-icon btn-fullscreen" id="btn-fullscreen" aria-label="Toggle fullscreen">
+        <svg class="icon-fullscreen-enter" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+        </svg>
+        <svg class="icon-fullscreen-exit" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/>
+        </svg>
+      </button>
+    </header>
+
+    <!-- ── Main flipbook layout ───────────────────────────────── -->
+    <main class="flipbook-layout" role="main">
+      <button class="nav-zone nav-zone--prev" id="btn-prev" aria-label="Previous page">
+        <span class="nav-zone__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"/>
+          </svg>
+        </span>
+      </button>
+
+      <div class="flipbook-container" id="flipbook-container">
+        <div id="flipbook"></div>
+      </div>
+
+      <button class="nav-zone nav-zone--next" id="btn-next" aria-label="Next page">
+        <span class="nav-zone__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </span>
+      </button>
+    </main>
+
+  </div><!-- #app -->
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+/* ── Layout ───────────────────────────────────────────────────────
+ * Full-viewport, no-scroll shell for 1920 × 1280 landscape kiosk.
+ * Uses flex column so the flipbook-layout row fills remaining height.
+ * ────────────────────────────────────────────────────────────────*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+  /* Disable text inflation on high-DPI touch screens */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--clr-bg);
+  /* Book cover as a very dark, blurred ambient texture behind the UI */
+  background-image: url('/assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: var(--clr-text-primary);
+  font-family: var(--font-ui);
+  font-size: var(--text-base);
+  line-height: 1.5;
+  /* Prevent accidental selection during touch navigation */
+  -webkit-user-select: none;
+  user-select: none;
+  /* Disable default touch behaviours (pull-to-refresh, etc.) */
+  touch-action: none;
+  overscroll-behavior: none;
+  /* Disable tap highlight flash on touch */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Scrim over the cover background — dark enough to read text,
+   light enough for the leather texture to come through */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(16, 12, 8, 0.62);
+  pointer-events: none;
+  z-index: 0;
+}
+
+#app {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100dvw;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+/* ── Header ──────────────────────────────────────────────────────*/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--sp-4);
+  height: var(--header-h);
+  flex-shrink: 0;
+  /* Fades into page background so the book bleeds underneath */
+  background: linear-gradient(
+    to bottom,
+    rgba(22, 18, 14, 0.92) 0%,
+    rgba(22, 18, 14, 0.0) 100%
+  );
+  position: relative;
+  z-index: var(--z-controls);
+}
+
+/* ── Main row (nav zones + book) ─────────────────────────────────*/
+
+.flipbook-layout {
+  display: flex;
+  flex: 1;
+  min-height: 0; /* allow flex child to shrink below content size */
+  overflow: hidden;
+  position: relative;
+}
+
+.flipbook-container {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  /* Cover image fills the letterbox areas above/below the book spread */
+  background-image: url('/assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Dark scrim inside the container so letterbox reads as warm shadow,
+   not as a distracting full-brightness cover image */
+.flipbook-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(16, 12, 8, 0.70);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Header spacer — mirrors the fullscreen button width to keep
+   the page indicator optically centred */
+.header__spacer {
+  display: block;
+  width: var(--touch-target); /* 48 px — same as .btn-icon */
+  flex-shrink: 0;
+}
+
+/* StPageFlip injects a canvas/div inside this element */
+#flipbook {
+  width: 100%;
+  height: 100%;
+}

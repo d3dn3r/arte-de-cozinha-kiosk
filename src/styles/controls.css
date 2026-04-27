@@ -1,0 +1,156 @@
+/* ── Controls ─────────────────────────────────────────────────────
+ * Prev / next navigation zones, page indicator, icon buttons.
+ * All interactive targets meet the 48 px WCAG 2.5.5 minimum.
+ * ────────────────────────────────────────────────────────────────*/
+
+/* ── Shared icon button base ─────────────────────────────────────*/
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width:  var(--touch-target);
+  height: var(--touch-target);
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  color: var(--clr-text-secondary);
+  transition:
+    color       var(--dur-fast) var(--ease-out),
+    background  var(--dur-fast) var(--ease-out);
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-icon svg {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+.btn-icon:hover,
+.btn-icon:focus-visible {
+  color: var(--clr-gold);
+  background: var(--clr-gold-glow);
+  outline: none;
+}
+
+.btn-icon:focus-visible {
+  outline: 2px solid var(--clr-gold);
+  outline-offset: 2px;
+}
+
+.btn-icon:active {
+  background: rgba(201, 169, 110, 0.2);
+}
+
+/* ── Fullscreen toggle ───────────────────────────────────────────*/
+
+.icon-fullscreen-exit { display: none; }
+
+:fullscreen .icon-fullscreen-enter,
+:-webkit-full-screen .icon-fullscreen-enter {
+  display: none;
+}
+:fullscreen .icon-fullscreen-exit,
+:-webkit-full-screen .icon-fullscreen-exit {
+  display: block;
+}
+
+/* ── Page indicator ──────────────────────────────────────────────*/
+
+.page-indicator {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.06em;
+  color: var(--clr-text-secondary);
+  min-width: 7ch;
+  text-align: center;
+  justify-content: center;
+}
+
+.page-indicator__sep {
+  color: var(--clr-text-muted);
+  font-size: var(--text-xs);
+}
+
+/* ── Navigation zones ────────────────────────────────────────────*/
+
+.nav-zone {
+  /* Full-height side panels — the entire column is the touch target */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--nav-zone-w);
+  flex-shrink: 0;
+  align-self: stretch;           /* full height of the flex row     */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--clr-text-muted);
+  transition:
+    color       var(--dur-base) var(--ease-out),
+    background  var(--dur-base) var(--ease-out);
+  z-index: var(--z-controls);
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  /* Minimum hit target guaranteed by full-height stretch + fixed width */
+}
+
+.nav-zone:hover,
+.nav-zone:focus-visible {
+  color: var(--clr-gold);
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--clr-gold-glow)
+  );
+  outline: none;
+}
+
+.nav-zone--next:hover,
+.nav-zone--next:focus-visible {
+  background: linear-gradient(
+    to left,
+    transparent,
+    var(--clr-gold-glow)
+  );
+}
+
+.nav-zone:active {
+  background: rgba(201, 169, 110, 0.14);
+}
+
+.nav-zone:focus-visible {
+  outline: 2px solid var(--clr-gold);
+  outline-offset: -2px;
+}
+
+.nav-zone__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:  var(--touch-target);
+  height: var(--touch-target);
+  pointer-events: none;
+}
+
+.nav-zone__icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+/* Subtle divider between nav zone and book */
+.nav-zone--prev .nav-zone__icon {
+  border-right: 1px solid var(--clr-border);
+}
+.nav-zone--next .nav-zone__icon {
+  border-left: 1px solid var(--clr-border);
+}

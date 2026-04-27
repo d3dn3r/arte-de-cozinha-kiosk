@@ -1,0 +1,1105 @@
+{
+  "title": "Arte de Cozinha",
+  "pages": [
+    {
+      "src": "/assets/pages/001.jpg",
+      "title": "inside front cover"
+    },
+    {
+      "src": "/assets/pages/002.jpg",
+      "title": "title page"
+    },
+    {
+      "src": "/assets/pages/003.jpg",
+      "title": "dedication page (verso of title page)"
+    },
+    {
+      "src": "/assets/pages/004.jpg",
+      "title": "Prologo (Prologue)"
+    },
+    {
+      "src": "/assets/pages/005.jpg",
+      "title": "Prologo continued"
+    },
+    {
+      "src": "/assets/pages/006.jpg",
+      "title": "Prologo continued (page 2)"
+    },
+    {
+      "src": "/assets/pages/007.jpg",
+      "title": "Prologo continued (page 3)"
+    },
+    {
+      "src": "/assets/pages/008.jpg",
+      "title": "Prologo conclusion and Decorative element"
+    },
+    {
+      "src": "/assets/pages/009.jpg",
+      "title": "Decorative element and beginning of index"
+    },
+    {
+      "src": "/assets/pages/010.jpg",
+      "title": "Index continued (page 1)"
+    },
+    {
+      "src": "/assets/pages/011.jpg",
+      "title": "Index continued (page 2 - end of index)"
+    },
+    {
+      "src": "/assets/pages/012.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/013.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/014.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/015.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/016.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/017.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/018.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/019.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/020.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/021.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/022.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/023.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/024.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/025.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/026.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/027.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/028.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/029.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/030.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/031.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/032.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/033.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/034.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/035.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/036.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/037.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/038.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/039.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/040.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/041.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/042.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/043.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/044.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/045.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/046.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/047.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/048.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/049.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/050.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/051.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/052.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/053.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/054.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/055.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/056.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/057.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/058.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/059.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/060.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/061.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/062.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/063.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/064.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/065.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/066.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/067.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/068.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/069.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/070.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/071.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/072.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/073.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/074.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/075.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/076.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/077.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/078.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/079.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/080.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/081.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/082.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/083.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/084.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/085.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/086.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/087.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/088.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/089.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/090.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/091.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/092.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/093.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/094.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/095.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/096.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/097.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/098.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/099.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/100.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/101.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/102.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/103.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/104.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/105.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/106.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/107.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/108.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/109.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/110.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/111.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/112.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/113.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/114.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/115.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/116.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/117.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/118.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/119.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/120.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/121.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/122.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/123.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/124.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/125.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/126.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/127.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/128.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/129.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/130.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/131.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/132.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/133.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/134.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/135.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/136.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/137.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/138.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/139.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/140.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/141.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/142.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/143.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/144.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/145.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/146.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/147.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/148.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/149.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/150.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/151.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/152.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/153.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/154.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/155.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/156.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/157.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/158.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/159.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/160.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/161.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/162.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/163.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/164.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/165.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/166.jpg",
+      "title": "Segunda Parte; 151"
+    },
+    {
+      "src": "/assets/pages/167.jpg",
+      "title": "152 Arte de Cozinha"
+    },
+    {
+      "src": "/assets/pages/168.jpg",
+      "title": "153 Segunda Parte"
+    },
+    {
+      "src": "/assets/pages/169.jpg",
+      "title": "154 Arte de Cozinha"
+    },
+    {
+      "src": "/assets/pages/170.jpg",
+      "title": "155 Segunda Parte"
+    },
+    {
+      "src": "/assets/pages/171.jpg",
+      "title": "156 Arte de Cozinha"
+    },
+    {
+      "src": "/assets/pages/172.jpg",
+      "title": "157 Segunda Parte"
+    },
+    {
+      "src": "/assets/pages/173.jpg",
+      "title": "158 Arte de Cozinha"
+    },
+    {
+      "src": "/assets/pages/174.jpg",
+      "title": "159 Segunda Parte"
+    },
+    {
+      "src": "/assets/pages/175.jpg",
+      "title": "160 Arte de Cozinha"
+    },
+    {
+      "src": "/assets/pages/176.jpg",
+      "title": "161 Segunda Parte"
+    },
+    {
+      "src": "/assets/pages/177.jpg",
+      "title": "162 Arte de Cozinha"
+    },
+    {
+      "src": "/assets/pages/178.jpg",
+      "title": "163 Segunda Parte"
+    },
+    {
+      "src": "/assets/pages/179.jpg",
+      "title": "164 Arte de Cozinha"
+    },
+    {
+      "src": "/assets/pages/180.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/181.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/182.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/183.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/184.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/185.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/186.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/187.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/188.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/189.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/190.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/191.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/192.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/193.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/194.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/195.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/196.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/197.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/198.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/199.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/200.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/201.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/202.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/203.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/204.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/205.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/206.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/207.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/208.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/209.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/210.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/211.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/212.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/213.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/214.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/215.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/216.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/217.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/218.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/219.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/220.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/221.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/222.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/223.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/224.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/225.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/226.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/227.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/228.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/229.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/230.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/231.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/232.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/233.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/234.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/235.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/236.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/237.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/238.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/239.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/240.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/241.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/242.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/243.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/244.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/245.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/246.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/247.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/248.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/249.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/250.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/251.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/252.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/253.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/254.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/255.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/256.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/257.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/258.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/259.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/260.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/261.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/262.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/263.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/264.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/265.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/266.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/267.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/268.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/269.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/270.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/271.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/272.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/273.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/274.jpg",
+      "title": ""
+    },
+    {
+      "src": "/assets/pages/275.jpg",
+      "title": "Back cover"
+    }
+  ]
+}

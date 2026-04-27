@@ -1,0 +1,90 @@
+/* ── Main stylesheet — import order matters ───────────────────────
+ * Vite processes these imports into a single bundle.
+ * ────────────────────────────────────────────────────────────────*/
+
+@import './tokens.css';
+@import './layout.css';
+@import './controls.css';
+@import './attract.css';
+
+/* ── StPageFlip letterbox overrides ──────────────────────────────
+ * The white letterbox above/below the book spread is drawn ON the
+ * canvas by StPageFlip's Render.clear() — CSS cannot reach drawn
+ * canvas pixels.  The JS canvas patch in flipbook.js (patchCanvas)
+ * is the primary fix; the rules below handle the HTML wrapper divs.
+ *
+ * #flipbook itself gets the dark app colour as a fallback so any
+ * area not covered by canvas shows the leather texture behind it.  */
+
+#flipbook {
+  background: var(--clr-bg) !important;
+}
+
+/* All StPageFlip wrapper divs → transparent so the background
+   image in .flipbook-container shows through the canvas edges.    */
+#flipbook div,
+#flipbook section {
+  background: transparent !important;
+}
+
+/* Shadow gradient elements use inline `background: linear-gradient`
+   which our JS strips; the CSS fallback keeps them transparent.    */
+#flipbook .stf__outerShadow,
+#flipbook .stf__innerShadow,
+#flipbook .stf__hardShadow,
+#flipbook .stf__hardInnerShadow {
+  background: transparent !important;
+}
+
+/* Canvas CSS background is transparent; drawn content is unaffected */
+#flipbook canvas {
+  background: transparent !important;
+}
+
+/* Page <img> elements remain as-is */
+#flipbook img {
+  background: transparent !important;
+}
+
+/* ── Page image wrappers (StPageFlip HTML page mode) ─────────────*/
+
+.page {
+  overflow: hidden;
+  background: transparent;
+}
+
+.page img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Prevent drag-and-drop / long-press save */
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+
+/* ── Loading state ───────────────────────────────────────────────*/
+
+.flipbook-container.is-loading::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--clr-bg);
+  /* spinner added via animation on a pseudo pseudo — kept simple */
+}
+
+/* ── Global scrollbar (for TOC list) ─────────────────────────────*/
+
+::-webkit-scrollbar       { width: 3px; height: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--clr-border); border-radius: 2px; }
+
+/* ── Focus ring (keyboard / switch access) ───────────────────────*/
+
+:focus-visible {
+  outline: 2px solid var(--clr-gold);
+  outline-offset: 2px;
+}
