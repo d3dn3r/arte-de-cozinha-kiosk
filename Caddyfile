@@ -8,9 +8,13 @@
 # Manual test  →  double-click START.bat
 # Install once →  run INSTALL-SERVICE.bat as Administrator
 
-localhost:8080 {
+{
+  auto_https off
+}
 
-  root * {env.KIOSK_DIR}
+http://localhost:8080 {
+
+  root * {env.KIOSK_DIR}dist
 
   file_server
 
