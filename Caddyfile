@@ -10,7 +10,7 @@
 
 localhost:8080 {
 
-  root * {env.KIOSK_DIR}dist
+  root * {env.KIOSK_DIR}
 
   file_server
 
